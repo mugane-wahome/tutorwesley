@@ -118,5 +118,9 @@
             });
         }
     }
-
+    function submitForm(event) {
+        event.preventDefault(); // Prevent the default form submission
+        alert("Email Submitted to Tutor Joyceline"); // Show alert message
+        document.getElementById("reused_form").submit(); // Submit the form programmatically
+    }
 
